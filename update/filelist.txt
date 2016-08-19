@@ -2,7 +2,7 @@
 strings.conf	7e8c41d1a2208dc55e7c3c1c7b21fc41
 update.log	bba4a76b396d4c0f74fefc76fd989489
 expansions/live	d41d8cd98f00b204e9800998ecf8427e
-expansions/thc.cdb	9cbf83775637e85bb3623a9df9fe078a
+expansions/thc.cdb	cfd469159c2c26a2edf88eed3a431443
 expansions/script/nef/afi.lua	8a609c9875d4f8f1c1ab9d248b6ebd31
 expansions/script/nef/cardList.lua	a21bb70017f6afc5e8565630b3a6ac4b
 expansions/script/nef/dss.lua	92a7093d264dd9b8fe6d16aaa8ac7da7
@@ -3077,7 +3077,7 @@ script/c22008.lua	787c0f5ffec3e209d65ed0db72abe3ba
 script/c22009.lua	df5538f784e668874c794a588c859eb9
 script/c22011.lua	df53b515e1b188e9cd78244df41489e8
 script/c22012.lua	ad3ecea4d5e71f46babf97975cf9f6a5
-script/c22014.lua	70b91d7ec464bb85e859d1fc8868d96d
+script/c22014.lua	9d6966589a50ffe41b285387b65dfd7c
 script/c22015.lua	baaa5e0ae8b3dc725577fcedfe4605a6
 script/c22017.lua	0452755d462f0910d1a05e22c3e31a8d
 script/c22018.lua	4208121e90619bbd00e5331d4a5a8856
@@ -3518,7 +3518,7 @@ script/c27061.lua	13f203ea5616fd937951fc7430816b84
 script/c27062.lua	4b2638974bb974eafbe6c408fa17758d
 script/c27063.lua	6428e0da738916041b9ee40525340653
 script/c27064.lua	c139f2234b5fa05161a7624a5610d8ee
-script/c27071.lua	1cef2daf197c80fc5b87494e80894156
+script/c27071.lua	ba775bf600dff2172789f6992dc53431
 script/c27073.lua	2b0421ad7b32328ac0be3b30b1c0c8b2
 script/c27076.lua	e1ced905fd5a8029892a7a3200695c50
 script/c27079.lua	35a3ea48ed89cccad015f2ffa7fe899a
@@ -3945,7 +3945,7 @@ script/c999720.lua	961c12070b1b5a24fc0c62b4243f22a7
 script/constant.lua	baa32d1670c821b6440f030f68d3e634
 script/utility.lua	cbd1909b7ed832f830534b6a70e337bd
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	d09a4c0fe2cd27c6390a6f25dd4dd631
+update/filelist.txt	2cb0d82bbdf255db66ab304799183a5e
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	d3bf33c64aee93b5ac10ac416e2151ae
+update/version.txt	67cace1e0323ce3eac3a4592742ab35e
