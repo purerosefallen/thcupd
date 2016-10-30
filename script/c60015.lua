@@ -25,7 +25,7 @@ function c60015.initial_effect(c)
 	e3:SetValue(-500)
 	c:RegisterEffect(e3)
 	local e4=e3:Clone()
-	e4:SetCode(EFFECT_UPDATE_DEFENCE)
+	e4:SetCode(EFFECT_UPDATE_DEFENSE)
 	c:RegisterEffect(e4)
 end
 function c60015.spfilter(c,e,tp)
@@ -46,5 +46,5 @@ function c60015.spop(e,tp,eg,ep,ev,re,r,rp)
 end
 function c60015.atkcon(e)
 	local ph=Duel.GetCurrentPhase()
-	return ph==PHASE_BATTLE or ph==PHASE_DAMAGE or ph==PHASE_DAMAGE_CAL
+	return (ph>PHASE_MAIN1 and ph<PHASE_MAIN2)
 end

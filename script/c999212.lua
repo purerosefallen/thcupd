@@ -1,5 +1,5 @@
 --光符「天照」　
---require "expansions/nef/nef"
+--require "expansions/script/nef/nef"
 function c999212.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)
@@ -21,7 +21,7 @@ function c999212.activate(e,tp,eg,ep,ev,re,r,rp)
 	c:RegisterEffect(e1)
 	--defup
 	local e0=e1:Clone()
-	e0:SetCode(EFFECT_UPDATE_DEFENCE)
+	e0:SetCode(EFFECT_UPDATE_DEFENSE)
 	e0:SetValue(300)
 	c:RegisterEffect(e0)
 	--sp1
@@ -93,7 +93,8 @@ function c999212.enop(e,tp,eg,ep,ev,re,r,rp)
 	if not c:IsRelateToEffect(e) then return end
 	if Duel.GetLocationCount(tp,LOCATION_MZONE)<=0
 		or not Duel.IsPlayerCanSpecialSummonMonster(tp,999212,0,0x21,2000,0,4,RACE_BEAST,ATTRIBUTE_LIGHT) then return end
-	c:AddTrapMonsterAttribute(TYPE_EFFECT,ATTRIBUTE_LIGHT,RACE_BEAST,4,2000,0)
-	Duel.SpecialSummon(c,0,tp,tp,true,false,POS_FACEUP)
-	c:TrapMonsterBlock()
+	c:AddMonsterAttribute(TYPE_EFFECT+TYPE_TRAP)
+	Duel.SpecialSummonStep(c,0,tp,tp,true,false,POS_FACEUP)
+	c:AddMonsterAttributeComplete()
+	Duel.SpecialSummonComplete()
 end

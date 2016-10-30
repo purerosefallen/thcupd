@@ -38,7 +38,7 @@ function c200018.initial_effect(c)
 	end
 end
 function c200018.con1(e,tp,eg,ep,ev,re,r,rp)
-	return Duel.GetTurnPlayer()==tp and Duel.GetCurrentPhase()==PHASE_BATTLE and not Duel.CheckPhaseActivity() and Duel.GetCurrentChain()==0
+	return Duel.GetTurnPlayer()==tp and (Duel.GetCurrentPhase()>PHASE_MAIN1 and Duel.GetCurrentPhase()<PHASE_MAIN2) and not Duel.CheckPhaseActivity() and Duel.GetCurrentChain()==0
 end
 function c200018.op1(e,tp,eg,ep,ev,re,r,rp)
 	local token=Duel.CreateToken(tp,200118)
@@ -64,11 +64,13 @@ function c200018.op2(e,tp,eg,ep,ev,re,r,rp)
 	end
 end
 function c200018.negfilter(c)
-	return c:GetOriginalCode()==200018 and c:IsLocation(LOCATION_MZONE) and c:IsPosition(POS_FACEDOWN_DEFENCE)
+	return c:GetOriginalCode()==200018 and c:IsLocation(LOCATION_MZONE) and c:IsPosition(POS_FACEDOWN_DEFENSE)
 end
 function c200018.negop(e,tp,eg,ep,ev,re,r,rp)
 	if re:IsHasProperty(EFFECT_FLAG_CARD_TARGET) then
-		local g=Duel.GetChainInfo(ev,CHAININFO_TARGET_CARDS):Filter(c200018.negfilter,nil)
+		local tg=Duel.GetChainInfo(ev,CHAININFO_TARGET_CARDS)
+		if not tg then return end 
+		local g=tg:Filter(c200018.negfilter,nil)
 		if g:GetCount()>0 then
 			Duel.NegateActivation(ev)
 			Duel.ChangePosition(g,POS_FACEUP_ATTACK)

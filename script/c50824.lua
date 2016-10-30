@@ -69,7 +69,7 @@ function c50824.operation(e,tp,eg,ep,ev,re,r,rp)
 	end
 end
 function c50824.ddcon(e,tp,eg,ep,ev,re,r,rp)
-	return Duel.GetCurrentPhase()==PHASE_BATTLE
+	return (Duel.GetCurrentPhase()>PHASE_MAIN1 and Duel.GetCurrentPhase()<PHASE_MAIN2)
 end
 function c50824.thtg(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 	if chkc then return chkc:IsControler(1-tp) and chkc:IsLocation(LOCATION_MZONE) and chkc:IsFaceup() end
@@ -84,11 +84,11 @@ function c50824.thop(e,tp,eg,ep,ev,re,r,rp)
 		local des=lz*200
 		local e1=Effect.CreateEffect(c)
 		e1:SetType(EFFECT_TYPE_SINGLE)
-		e1:SetCode(EFFECT_UPDATE_DEFENCE)
+		e1:SetCode(EFFECT_UPDATE_DEFENSE)
 		e1:SetReset(RESET_EVENT+0x1fe0000)
 		e1:SetValue(-des)
 		tc:RegisterEffect(e1)
-		if tc:GetDefence()==0 then
+		if tc:GetDefense()==0 then
 			Duel.Destroy(tc,REASON_EFFECT)
 		end
 	end

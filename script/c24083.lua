@@ -1,5 +1,5 @@
 --废狱之心 地灵殿
--- --require "expansions/nef/nef"
+require "expansions/script/nef/nef"
 function c24083.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)
@@ -32,10 +32,10 @@ end
 function c24083.condition(e,tp,eg,ep,ev,re,r,rp)
 	local ph=Duel.GetCurrentPhase()
 	-- Nef.Log(string.format("1 %s", tostring(Duel.IsExistingMatchingCard(c24083.filter,e:GetHandler():GetControler(),LOCATION_MZONE,0,1,nil))))
-	-- Nef.Log(string.format("2 %s", tostring(ph==PHASE_BATTLE or ph==PHASE_DAMAGE or ph==PHASE_DAMAGE_CAL)))
+	-- Nef.Log(string.format("2 %s", tostring((ph>PHASE_MAIN1 and ph<PHASE_MAIN2))))
 	-- Nef.Log(string.format("3 %s", tostring(tp)))
 	return Duel.IsExistingMatchingCard(c24083.filter,e:GetHandler():GetControler(),LOCATION_MZONE,0,1,nil) 
-		and (ph==PHASE_BATTLE or ph==PHASE_DAMAGE or ph==PHASE_DAMAGE_CAL)
+		and ((ph>PHASE_MAIN1 and ph<PHASE_MAIN2))
 end
 function c24083.aclimit(e,re,tp)
 	return re:IsHasType(EFFECT_TYPE_ACTIVATE)
