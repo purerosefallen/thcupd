@@ -2792,7 +2792,7 @@ script/c12014.lua	b7ea617af494360210292929cbe87f44
 script/c12018.lua	0c26d35b125692cf01d7c29a6d3f2162
 script/c12022.lua	ae41a49ec577befc694fc9b5ef94bc74
 script/c12024.lua	a60e397b77a1ea6151d29ec9e304063d
-script/c12026.lua	13b7c1c800cb90641b1c1c1208f8ddf1
+script/c12026.lua	72c19e4cee0dea6adcb1006158cbbed0
 script/c13001.lua	3c8b6c42963f978392d2f692ac2a1e29
 script/c13005.lua	b9b0361890cfa102fff1c0eba65413cf
 script/c13006.lua	6bd1b5127b0cbc0225a1e20bc55fcdfb
@@ -2812,9 +2812,9 @@ script/c13049.lua	47901a236dba02494e3f8947ea07bc1b
 script/c13051.lua	73f6be505553f5f120e3ceaf88b316c0
 script/c13052.lua	c474626206958edf62570fdb60f78d08
 script/c13053.lua	a049659392c4cdec875b7581e769c5bc
-script/c13066.lua	4a89f1635eaf5754a8f86570ce10ea3e
-script/c13068.lua	edece8bcee64fdc4f6ec960858ea526b
-script/c13070.lua	bc8faf6a92a89754408a90c58cb2e24f
+script/c13066.lua	5d36a28f39b978d63c78f26c6eb0d0ee
+script/c13068.lua	2b07baa5c632227e9e590851cfdd1a36
+script/c13070.lua	c3de914b8db521bcbfe3178b11ca6fac
 script/c13072.lua	fdd47951c2cda92e9f513b44f818755e
 script/c13075.lua	744413f7f25bf3dbfc7b3479c844890f
 script/c13080.lua	68c7392845238857c15ba4299ea3f798
@@ -3108,7 +3108,7 @@ script/c21050.lua	028718851820df63e2a1f76dc413983e
 script/c21051.lua	58ca04733ed08ce0efc4dcdf4e7ec99b
 script/c21052.lua	115a5f05d424ed5ecb91fefc9bfa5c24
 script/c21053.lua	88d2ead791a5cb112a5a1759523a95a3
-script/c21054.lua	95e4f3b613ae0525947d4a0e441b76b9
+script/c21054.lua	5ead9f9d6d4da345bfa5dcb4435cff81
 script/c21055.lua	3641eab3b8922758829e08e9c1acda9e
 script/c21056.lua	29653d6d31abb6596ab93dab5d49e838
 script/c21057.lua	903df0f0caa248171def296e36271de5
@@ -3910,7 +3910,7 @@ script/c7001060.lua	0f2f19fbe865618e79b123a6ff4b372a
 script/c7001080.lua	a21f3008cb9a5311ffa0b646fe50d1f5
 script/c7001081.lua	be4ae3645ea8a2a17b32364781635093
 script/c7001100.lua	757098f1fbc338c6100cf016c59c5752
-script/c7001101.lua	b339a59acdbfd8e4e472e4bac021f815
+script/c7001101.lua	a5970babf171d9fdb42114111d9ddd0f
 script/c7001102.lua	200a172812a58769fb0c2d4b0baf0ca2
 script/c7001103.lua	53e313b78c6d3bd6ce2b6231cda333e9
 script/c7001200.lua	b3f38bb91aa1401eaf4e10db3bb892fd
@@ -4076,11 +4076,12 @@ script/nef/cardList.lua	a21bb70017f6afc5e8565630b3a6ac4b
 script/nef/dss.lua	92a7093d264dd9b8fe6d16aaa8ac7da7
 script/nef/elf.lua	09cf3c36d52e1bbfca448b18de2230f6
 script/nef/ets.lua	4dba8165b57ddb02d920a346efea6565
+script/nef/fus.lua	5c79118d2811d13cb542a3e7cd7a9c86
 script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
-script/nef/nef.lua	0fe9ebce95a85a3e493754c9fd7c9104
+script/nef/nef.lua	beea33a16c488bf64f1bb24d9a247ab8
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	f7d2b4ce0fb23f3646d9d9ccc316e98c
+update/filelist.txt	e09d391684e7356e01619f10a531032e
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	e5b437ca6716c42fd8b37c3a4ccf70eb
+update/version.txt	2298790645281d185b87188116ea84a2
