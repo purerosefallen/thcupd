@@ -34,6 +34,10 @@ function c31043.initial_effect(c)
 	e3:SetOperation(c31043.desop)
 	c:RegisterEffect(e3)
 end
+c31043.hana_mat={
+aux.FilterBoolFunction(Card.IsSetCard,0x200),
+aux.FilterBoolFunction(Card.IsSetCard,0x208),
+}
 function c31043.ffilter(c)
 	return c:IsSetCard(0x208)
 end
@@ -72,11 +76,10 @@ function c31043.val(e,c)
 	return c:GetEquipCount()*300
 end
 function c31043.cfilter(c)
-	return c:IsType(TYPE_SPELL) and c:IsLocation(LOCATION_SZONE) and c:IsAbleToGraveAsCost()
+	return c:IsType(TYPE_EQUIP) and c:IsAbleToGraveAsCost()
 end
 function c31043.descost(e,tp,eg,ep,ev,re,r,rp,chk)
-	local c=e:GetHandler()
-	local g=c:GetEquipGroup()
+	local g=Duel.GetFieldGroup(tp,LOCATION_SZONE,0)
 	if chk==0 then return g:IsExists(c31043.cfilter,1,nil) end
 	Duel.Hint(HINT_SELECTMSG,tp,HINTMSG_TOGRAVE)
 	local sg=g:Select(tp,1,1,nil)
