@@ -3,7 +3,7 @@ strings.conf	2af66c141266b2dacff9def9a0f9705f
 update.log	bba4a76b396d4c0f74fefc76fd989489
 expansions/live	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2016	d41d8cd98f00b204e9800998ecf8427e
-expansions/thc.cdb	fb9ef30112bf0cf6203b68711e6edbf9
+expansions/thc.cdb	81d56e966bc5108ffceea553524acb11
 expansions/script/nef/afi.lua	ff4a9b5c23d7443afbc09e57cd3ca27f
 expansions/script/nef/cardList.lua	a21bb70017f6afc5e8565630b3a6ac4b
 expansions/script/nef/dss.lua	92a7093d264dd9b8fe6d16aaa8ac7da7
@@ -2835,11 +2835,11 @@ script/c13049.lua	47901a236dba02494e3f8947ea07bc1b
 script/c13051.lua	bb9b4cfbc7c4c2df92445dc5062f623d
 script/c13052.lua	c474626206958edf62570fdb60f78d08
 script/c13053.lua	d73e54eb25b4dd8861007fe49f23ddca
-script/c13054.lua	40ccde89124b7fa7a47d59d461fd848c
+script/c13054.lua	623d1059f995ec476e5b0afc7842c3de
 script/c13055.lua	173caacf4311f684b5626665e3330070
 script/c13056.lua	d66a540e16f8d20f80cc8eedfd6ce417
-script/c13057.lua	c55b88e0e8e1f9d56fd96985edc17325
-script/c13058.lua	b9422de9f10b64bfd47c92f1add63fd7
+script/c13057.lua	a79abb604608bbef56e6cee8dec2a1a7
+script/c13058.lua	7f6b5a673ef3d2da4cf37edcfb219abf
 script/c13059.lua	97421bfe0a3a646faa0784fa2f23b681
 script/c13060.lua	7f01188ed2e5c45d0fdd0bd721ec145a
 script/c13066.lua	5d36a28f39b978d63c78f26c6eb0d0ee
@@ -3740,7 +3740,7 @@ script/c31007.lua	14f9511b3906b31495886564b095a761
 script/c31010.lua	8e24f840abafb28687aed817c4602f39
 script/c31013.lua	12df2b0506e6c0b14b5cb1b2f66e473a
 script/c31018.lua	697ffdba5a25e8d6489f5c4f78bec147
-script/c31021.lua	30a1b28c28bada54610e3f054456a287
+script/c31021.lua	f51a30ca31ba3f7f21cbdaa9326f1971
 script/c31024.lua	df0c6f669a3f6e6054d8cc9b30e4deb1
 script/c31027.lua	8d9a3c8025e8b6b72fe9a93e632a9938
 script/c31030.lua	495ed5ea3a0b18460e13970933f84a82
@@ -4112,7 +4112,7 @@ script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
 script/nef/nef.lua	beea33a16c488bf64f1bb24d9a247ab8
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	6f55e4487453b0d1932eaf3784d9bfd1
+update/filelist.txt	2685a04c4ad87ab3b9ca70ce36236cc0
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	9432b21d1c009ec67b4746ed9bdd258b
+update/version.txt	9a50bef99d23b3fb2d741adc7fcb03a5
