@@ -52,7 +52,7 @@ function M.target(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 end
 
 function M.filter2(c,e,tp)
-	return c:IsSetCard(0xaa5) and c:IsCanBeSpecialSummoned(e,0,tp,false,false,POS_FACEUP_ATTACK)
+	return c:IsSetCard(0xaa5) and c:IsCanBeSpecialSummoned(e,0,tp,false,false)
 end
 
 function M.operation(e,tp,eg,ep,ev,re,r,rp)
@@ -75,6 +75,6 @@ function M.operation(e,tp,eg,ep,ev,re,r,rp)
 	if num > count then num = count end
 	local g=Duel.SelectMatchingCard(tp, M.filter2, tp, LOCATION_DECK, 0, 1, num, nil, e, tp)
 	if g:GetCount()>0 then
-		Duel.SpecialSummon(g, 0, tp, tp, false, false, POS_FACEUP_ATTACK)
+		Duel.SpecialSummon(g, 0, tp, tp, false, false, POS_FACEUP)
 	end
 end
