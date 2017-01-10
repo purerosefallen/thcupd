@@ -1,6 +1,6 @@
 ﻿lflist.conf	85921823ea53964cf85dd509ccf85932
 strings.conf	2af66c141266b2dacff9def9a0f9705f
-update.log	60f173c474069f6e9290c9c8dfe182b9
+update.log	8850a3e1a8156525c9b9c47f3bf7dadb
 expansions/live	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2016	d41d8cd98f00b204e9800998ecf8427e
 expansions/thc.cdb	b996013a1c30774e80ef71d8b7871e47
@@ -4193,7 +4193,7 @@ script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
 script/nef/nef.lua	beea33a16c488bf64f1bb24d9a247ab8
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	0787e8cf98877c3c931bb609600e3428
+update/filelist.txt	ba901cae8e5547d4fe09fe9dfde88615
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	a7b78eb38867bd6631552fe1a227dc65
+update/version.txt	ec9ac3100b10678d4fb8a1f16154fc7c
