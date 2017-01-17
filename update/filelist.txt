@@ -11,7 +11,7 @@ expansions/script/nef/elf.lua	09cf3c36d52e1bbfca448b18de2230f6
 expansions/script/nef/ets.lua	4dba8165b57ddb02d920a346efea6565
 expansions/script/nef/fus.lua	0247e09cd491e782b05e69b26003b917
 expansions/script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
-expansions/script/nef/nef.lua	beea33a16c488bf64f1bb24d9a247ab8
+expansions/script/nef/nef.lua	78e5032ff1d546304a0170e539f6ef05
 expansions/script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 pics/00015038.jpg	901b21922cb230e995e6408ec70d8ac5
 pics/10000.jpg	c43e23eddd9f21ff0841c1305c28cfa2
@@ -2839,7 +2839,7 @@ script/c10019.lua	022f56bf39303492b1ad40614dc49d39
 script/c10020.lua	c8e3aff6ba6adc3c34f05bc9af5acdf3
 script/c10021.lua	ca44b764b2f4f940520dc1554f494148
 script/c10027.lua	c157fd3fa50f00f543431d0774d66de4
-script/c10051.lua	6340606585782ecbcab97649e1d50522
+script/c10051.lua	439e09702864b9aba9e020afeaeffe0d
 script/c10054.lua	9b724b6208c32e281e7140a537c627ee
 script/c10071.lua	3d0f248aab5b21d8ef1671902cac5930
 script/c10072.lua	a0e22b1ed71401dc1260b4e4f8575d0e
@@ -2887,7 +2887,7 @@ script/c13041.lua	374a8c2c5a37b7f59a59ac408081b540
 script/c13044.lua	a704d3c0d9a4d877d6d8ac635a8c860d
 script/c13047.lua	40e24d83ce7c885da6abf271e21af21b
 script/c13049.lua	47901a236dba02494e3f8947ea07bc1b
-script/c13051.lua	bb9b4cfbc7c4c2df92445dc5062f623d
+script/c13051.lua	eece6786be66ceecaf3d1b84f3e2e873
 script/c13052.lua	c474626206958edf62570fdb60f78d08
 script/c13053.lua	d73e54eb25b4dd8861007fe49f23ddca
 script/c13054.lua	623d1059f995ec476e5b0afc7842c3de
@@ -2914,7 +2914,7 @@ script/c14010.lua	50cefefcc6423c46af87cac749139c6e
 script/c14013.lua	fcd46650fa6d2f4686101ebdba7bc642
 script/c14016.lua	54a17723b201248eee0af7aa3bfc6336
 script/c14019.lua	99671737b1fb14abda1a3c907240ab3c
-script/c14021.lua	7c7290cecdd6ef2b9273895244e9cb97
+script/c14021.lua	8aefed0db4cf19f274f98e66ca3e3479
 script/c14022.lua	0ea92ccbf51b56604943b280dac35d63
 script/c14023.lua	3cb3c453bd25b0f880430bef61a90a7e
 script/c14026.lua	f2e360f8184cb5b191f1575357145c5b
@@ -3146,7 +3146,7 @@ script/c20148.lua	41d57b158b31321d856d32d70a911515
 script/c20149.lua	76ab3c47a33fc9df1595166e467ffc0e
 script/c20150.lua	e7a2ff06d564c105bf6a6ef89491caf8
 script/c20151.lua	95be1fcb76496733f1d380fe59ade161
-script/c20153.lua	b4188343a383a970316827bc43ff32d1
+script/c20153.lua	1581338499a865564c4fc5a42ae33df3
 script/c20155.lua	ce34375ae2e6805302ca263b7ad9017a
 script/c20156.lua	17e03834d378be09568d14f562e7f233
 script/c20157.lua	d5fa00e85e0f8a90e5dcd67fdb86d19e
@@ -3723,7 +3723,7 @@ script/c27013.lua	8cd610901af2cd388e150456d87420dc
 script/c27014.lua	89fab9856972295267b4db4e0cf39ae5
 script/c27016.lua	86f7228c008d08849e346f45905565d1
 script/c27017.lua	a1074a1b06f0009d8fae111a86a6fc2a
-script/c27019.lua	64d4a71ba8fe4c05b0b57af15bd2b021
+script/c27019.lua	7cab728486094a43e754395213a32b1a
 script/c27020.lua	98b8f569ca71691b452da7fc060aa20d
 script/c27021.lua	97eb16696305226a233451213455eb14
 script/c27022.lua	abbbd7099422d4556cd3a8279257979b
@@ -3979,7 +3979,7 @@ script/c51113.lua	800a879df38ebfd6050e52b979404291
 script/c51201.lua	cebb1a3c167b72c3def00d8a7379eb1b
 script/c51203.lua	1c8617e762914ca9a43bd1fbd4cf0976
 script/c51204.lua	3ec9f5189844449a4c9b484bd3d0c9ba
-script/c51205.lua	8438c3582f13c33c3c1d1ee3f78e5012
+script/c51205.lua	5d993cd556b14815cfd55991f8a411e8
 script/c51206.lua	40a065d6c64dc5e8414062ae22dbcf24
 script/c51207.lua	1e6317307aa184c74f1ed02f93f7927f
 script/c60001.lua	7059b5d8e8b9ab0826bc16ca32a8d1b5
@@ -4190,10 +4190,10 @@ script/nef/elf.lua	09cf3c36d52e1bbfca448b18de2230f6
 script/nef/ets.lua	4dba8165b57ddb02d920a346efea6565
 script/nef/fus.lua	0247e09cd491e782b05e69b26003b917
 script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
-script/nef/nef.lua	beea33a16c488bf64f1bb24d9a247ab8
+script/nef/nef.lua	78e5032ff1d546304a0170e539f6ef05
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	369846d00a89a0c5df409ceb2f342bdb
+update/filelist.txt	0ebcba4de4e95a1104a608c09f59f519
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	387ad8f470721e7748a7435527689e49
+update/version.txt	00c64d9960e4e59cca73cd1e02d0c3d6
