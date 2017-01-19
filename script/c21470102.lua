@@ -1,4 +1,5 @@
- --妖魔书变化 别有隐情的情书
+ 
+--妖魔书变化 别有隐情的情书
 function c21470102.initial_effect(c)
 	--negate attack
 	local e1=Effect.CreateEffect(c)
@@ -121,7 +122,7 @@ function c21470102.target2(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 end
 function c21470102.ccon1(e,tp,eg,ep,ev,re,r,rp)
 	local tc=e:GetHandler():GetEquipTarget()
-	return tc and tp==Duel.GetTurnPlayer() and tc:IsControler(tp)
+	return tp==Duel.GetTurnPlayer() and tc:IsControler(tp)
 end
 function c21470102.cop1(e,tp,eg,ep,ev,re,r,rp)
 	local ce=e:GetLabelObject()
