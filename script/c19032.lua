@@ -2,7 +2,7 @@
 function c19032.initial_effect(c)
 	--Activate
 	local e1=Effect.CreateEffect(c)
-	e1:SetCategory(CATEGORY_TOGRAVE+CATEGORY_SPECIAL_SUMMON)
+	e1:SetCategory(CATEGORY_TOGRAVE+CATEGORY_SPECIAL_SUMMON+CATEGORY_FUSION_SUMMON)
 	e1:SetType(EFFECT_TYPE_ACTIVATE)
 	e1:SetCode(EVENT_FREE_CHAIN)
 	e1:SetCountLimit(1,19032+EFFECT_COUNT_CODE_OATH)
@@ -12,7 +12,7 @@ function c19032.initial_effect(c)
 	--fuckon
 	local e4=Effect.CreateEffect(c)
 	e4:SetDescription(aux.Stringid(19030,0))
-	e4:SetCategory(CATEGORY_REMOVE+CATEGORY_SPECIAL_SUMMON)
+	e4:SetCategory(CATEGORY_REMOVE+CATEGORY_SPECIAL_SUMMON+CATEGORY_FUSION_SUMMON)
 	e4:SetType(EFFECT_TYPE_TRIGGER_O+EFFECT_TYPE_FIELD)
 	e4:SetRange(LOCATION_GRAVE)
 	--e4:SetCode(EVENT_FREE_CHAIN)
