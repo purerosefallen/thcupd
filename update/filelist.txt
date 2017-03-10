@@ -5,7 +5,7 @@ expansions/live	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2016	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2017	d41d8cd98f00b204e9800998ecf8427e
 expansions/liveanime	d41d8cd98f00b204e9800998ecf8427e
-expansions/thc.cdb	65b4aa244135d1a4d9a345a3bbd1c0f4
+expansions/thc.cdb	c9c0ab3352462b1a476b3e9bfd9da7a9
 expansions/script/nef/afi.lua	ff4a9b5c23d7443afbc09e57cd3ca27f
 expansions/script/nef/cardList.lua	a21bb70017f6afc5e8565630b3a6ac4b
 expansions/script/nef/dss.lua	92a7093d264dd9b8fe6d16aaa8ac7da7
@@ -3036,13 +3036,13 @@ script/c15038.lua	55dc9688497440a0f890e0c725b40551
 script/c15039.lua	04e0c279a2c32a4d6b48b24e6c70cebe
 script/c15040.lua	15a71a80f918804f2afbbad20a65eb9f
 script/c15041.lua	877090dfcc09a67f00bfe3aa7726b18d
-script/c15043.lua	6a7856dd64d9d832278106440799f4e7
-script/c15045.lua	77bb3b73a8548c7c4f01169810fb2df0
+script/c15043.lua	7c9132c3f8e240282346dcb98e876652
+script/c15045.lua	1a25b6903a96e4552ffef257d8f298e6
 script/c15046.lua	86f89e81fba879b1cd7e7a7cc9522e40
 script/c15050.lua	7927559a93d5a4c2ea0554b114b2aee6
 script/c15051.lua	1e50254fb2b8c7b96bbb4cde05e0adf8
-script/c15053.lua	e456a1725b53a745b076e3887e19f1bf
-script/c15055.lua	df35c0c5c4b0c36361ce8d87e0c48351
+script/c15053.lua	9c8bc81ad1ef1f0f4001b319468e7ac2
+script/c15055.lua	4d5c60ddedd8033fe6167d30fc0d1ea9
 script/c15056.lua	2159d6da581baaf397da5c488d61493e
 script/c15059.lua	bc97f99911198fc8d8f446913db93cfd
 script/c15062.lua	c74e3f675484558ddc0badefe4388750
@@ -3050,7 +3050,7 @@ script/c15063.lua	e410ff625a4e1c2072a913c3b7922fc3
 script/c15064.lua	6e5a60b37db74717bb4ea19c1c388768
 script/c15065.lua	41ca8459ef431b2f5b28491bef5c466a
 script/c15066.lua	7f19ffa7769be8d6769bafa74299470a
-script/c15068.lua	70a85635d7ca3fdf6a1a021de4505912
+script/c15068.lua	defe22c3e4aafa23b9c62aa0f6ca1fa6
 script/c15070.lua	0f48f48ea9f604cb81414bbe206e0e68
 script/c15075.lua	092d7896983578536c3a88da6ab79826
 script/c19001.lua	5da0189e9737b15a93ef6b662ccb4372
@@ -4300,7 +4300,7 @@ script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
 script/nef/nef.lua	78e5032ff1d546304a0170e539f6ef05
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	f1a27887181ee01dd73b09a37b6a851a
+update/filelist.txt	101f8bad5f300886c7ff213f14103312
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	dd53f92affcb244adf7fa9b067f4a48f
+update/version.txt	04ade168b9784fa2c585bb0c9dc4509f
