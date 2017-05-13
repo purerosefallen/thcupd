@@ -79,12 +79,7 @@ function c12030.destg(e,tp,eg,ep,ev,re,r,rp,chk,chkc)
 	Duel.Hint(HINT_SELECTMSG,tp,HINTMSG_DESTROY)
 	local g=Duel.SelectTarget(tp,c12030.dsfilter,tp,LOCATION_ONFIELD,LOCATION_ONFIELD,1,1,nil)
 	Duel.SetOperationInfo(0,CATEGORY_DESTROY,g,1,0,0)
-	Duel.SetChainLimit(c12030.limit(g:GetFirst()))
-end
-function c12030.limit(c)
-	return  function (e,lp,tp)
-				return e:GetHandler() ~= c
-			end
+	Duel.SetChainLimit(aux.FALSE)
 end
 function c12030.desop(e,tp,eg,ep,ev,re,r,rp,chk)
 	local tc=Duel.GetFirstTarget()
