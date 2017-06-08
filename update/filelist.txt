@@ -5,7 +5,7 @@ expansions/live	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2016	d41d8cd98f00b204e9800998ecf8427e
 expansions/live2017	d41d8cd98f00b204e9800998ecf8427e
 expansions/liveanime	d41d8cd98f00b204e9800998ecf8427e
-expansions/thc.cdb	60ed2885726be004dc6753e46efdbffe
+expansions/thc.cdb	798c51908771946277563c9e3f5b224b
 expansions/script/nef/afi.lua	ff4a9b5c23d7443afbc09e57cd3ca27f
 expansions/script/nef/cardList.lua	a21bb70017f6afc5e8565630b3a6ac4b
 expansions/script/nef/dss.lua	92a7093d264dd9b8fe6d16aaa8ac7da7
@@ -3100,7 +3100,7 @@ script/c15068.lua	defe22c3e4aafa23b9c62aa0f6ca1fa6
 script/c15070.lua	ce2037551a14ef4364d196ef0e1e5dee
 script/c15075.lua	092d7896983578536c3a88da6ab79826
 script/c15077.lua	37bcc24cbb780dff7ea1745e6861c4ce
-script/c15080.lua	1d148724bcef6250964f2e0422987e87
+script/c15080.lua	af2127548f5cc53e5f769ed58d3eb5f3
 script/c15099.lua	8a889e065f241d682a664b337042a340
 script/c19001.lua	5da0189e9737b15a93ef6b662ccb4372
 script/c19002.lua	eaeae5bc9426ca21d97876202ae501b9
@@ -3315,7 +3315,7 @@ script/c20190.lua	c52c18912f327ad2b9919138de37fccd
 script/c20200.lua	441e6827b67dbccd4d6e1ce5a81e42cd
 script/c20201.lua	3aa1b658a4f16a82c06249f4288c48b0
 script/c20204.lua	5936d0dd86af5c5120f944b1dd466921
-script/c20216.lua	3af8ebd87cbf9b7fb05cee90dd173c4b
+script/c20216.lua	772da9793abe7e7820f99c06586825f2
 script/c20223.lua	9a80d5f03c3f9819b23434e5af0d6fc2
 script/c20227.lua	90e6a01ee8afedfa0faafce821ac6e6d
 script/c20235.lua	504664cca538ac07438849b5dfbc1192
@@ -4365,7 +4365,7 @@ script/nef/msc.lua	e0b13940cc8d65f172e6871dfbcaa7c4
 script/nef/nef.lua	52ab6e3ce3fa021e9f109639b3e5a8c5
 script/nef/uds.lua	da44229059265cacf176b5feeeead8ce
 update/delete.txt	c9b2ae557a77257e12e9a5599336afeb
-update/filelist.txt	6d3887b4434f88966763f7de056e8952
+update/filelist.txt	1f7d36a4198558845dddfed0e19c90f6
 update/rename.txt	cbfaccc657e73040ec051233017b2c4d
 update/update-server.bat	906682e2c43e33f9f06a058cea7da7bf
-update/version.txt	a6353101f2f9b8439a849d322787f20f
+update/version.txt	50527bf99b7d0697d4aa53f7d97382e9
